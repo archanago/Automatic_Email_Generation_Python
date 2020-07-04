@@ -6,7 +6,9 @@ Let's see how we can leverage Python to generate and send custom emails targeted
 
 ## 1. Storing list of contacts in a txt file:
 For this, we will store the list of contacts in `Contacts.txt` file, in the following format:
-NAME<space>EMAILID
+
+NAME EMAILID
+
 Our program will be reading from this list and will send mail to each one
 
 ## 2. Storing the message template in a txt file:
