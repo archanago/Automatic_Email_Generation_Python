@@ -9,11 +9,19 @@ For this, we will store the list of contacts in `Contacts.txt` file, in the foll
 
 NAME EMAILID
 
+Below is how our `Contacts.txt` file looks:
+
+![](https://github.com/archanago/Automatic_Email_Generation_Python/blob/master/Contacts%20List.PNG)
+
 Our program will be reading from this list and will send mail to each one
 
 ## 2. Storing the message template in a txt file:
 Use Template Strings in Python and type in the message to be sent to every user and store it in a `txt` file.
 Later on, our program reads this template and replaces template strings objects with respective values and finally sends mesage to each of the contacts in Contacts List.
+
+Below is the content of our message template:
+
+![github-small](https://github.com/archanago/Automatic_Email_Generation_Python/blob/master/Message%20Template.PNG)
 
 ## 3. Email Generation:
 
